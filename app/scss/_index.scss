@@ -1,41 +1,52 @@
-.testimonial {
-    border-radius: rem(11);
+main {
+    background-color: $lightGrayishBlue;
+    display: grid;
+    gap: rem(30);
 
-    &_container {
-        padding: rem(24) rem(36) rem(33) rem(30);
+    blockquote{
+        line-height: 1.7;
     }
+    
+    .testimonial {
+        border-radius: rem(11);
 
-    .profile {
-        display: flex;
-        flex-direction: row;
-        margin-bottom: rem(20);
-        
-        &_img {
-            width: rem(30);
-            height: rem(30);
-            border-radius: 50%;
-            margin-right: rem(16);
-            border: 1px solid $lightGray;
+        &_container {
+            padding: rem(24) rem(36) rem(33) rem(30);
         }
 
-        .wrapper {
-            .author {
-                font-size: rem(15);
+        .profile {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: rem(20);
+
+            &_img {
+                width: rem(30);
+                height: rem(30);
+                border-radius: 50%;
+                margin-right: rem(16);
+                border: 1px solid $lightGray;
             }
 
-            .job {}
+            .wrapper {
+                .author {
+                    font-size: rem(15);
+                }
 
+                .job {}
+
+            }
         }
+
+        .title {
+            font-size: rem(23);
+            margin-bottom: rem(20);
+        }
+
+        .text {
+            width: 85%;
+        }
+
     }
 
-    .title {
-        font-size: rem(23);
-        margin-bottom: rem(20);
-    }
-
-    .text {
-        width: 85%;
-    }
 
 }
-
