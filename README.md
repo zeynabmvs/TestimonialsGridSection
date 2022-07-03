@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Code](https://github.com/zeynabmvs/TestimonialsGridSection)
-- Live Site URL: [live site](testimonialsgridsection.pages.dev)
+- Live Site URL: [live site](https://testimonialsgridsection.pages.dev/)
 
 ## My process
 
