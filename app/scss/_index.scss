@@ -1,15 +1,24 @@
 main {
     background-color: $lightGrayishBlue;
-    display: grid;
-    gap: rem(30);
+    padding: rem(50) rem(20);
 
+    @include breakpoint-up(large) {
+        display: grid;
+        gap: rem(30);   
+        padding: rem(60); 
+    }
+    
     blockquote{
         line-height: 1.7;
     }
-    
+
     .testimonial {
         border-radius: rem(11);
+        margin-bottom: rem(30);
 
+        @include breakpoint-up(large) {
+            margin-bottom: 0;
+        }   
         &_container {
             padding: rem(24) rem(36) rem(33) rem(30);
         }
